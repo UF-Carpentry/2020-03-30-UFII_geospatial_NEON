@@ -44,13 +44,7 @@ see the changes take effect locally.
 </div>
 {% endif %}
 
-{% comment %}
-EVENTBRITE
 
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
 
 
 
