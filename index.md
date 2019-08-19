@@ -176,7 +176,7 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  for more information, or to be added to the waiting list if tickets are sold out.
+   with your name, affiliation, familiarity with programming, and a contact email if you plan on attending, or for more information.
 </p>
 
 <hr/>
