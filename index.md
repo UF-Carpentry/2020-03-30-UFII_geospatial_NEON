@@ -190,8 +190,8 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "dc" %}
-<p><a href="{{ site.dc_pre_survey }}2019-08-19-GWU">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}2019-08-19-GWU">Post-workshop Survey</a></p>
+<p><a href="{{ site.dc_pre_survey }}2020-03-30-UFL_geospatial_NEON">Pre-workshop Survey</a></p>
+<p><a href="{{ site.dc_post_survey }}2020-03-30-UFL_geospatial_NEON">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "lc" %}
 <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -222,7 +222,7 @@ Collaborative Notes
 
 If you want to use an Etherpad, go to
 
-http://pad.carpentries.org/2020-3-30_geospatial_NEON
+http://pad.carpentries.org/2020-03-30-UFL_geospatial_NEON
 
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
