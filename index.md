@@ -121,17 +121,6 @@ Modify the block below if there are any special requirements.
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
-<h2>Registration</h2>
-<p>
-  Space is limited to 24 participants for this workshop
-  and registration is required. A fee of $46.00 will 
-  be charged and lunch will be provided on both days. 
-  Please plan on attending the entire time for both days.
-</p>
-<p><strong>
-  <a href="http://reg.conferences.dce.ufl.edu/SSP/1400075792">Register for this workshop!</a>
-  <!-- Registration is now full -->
-</strong></p>
 
 {% comment%}
 CODE OF CONDUCT
