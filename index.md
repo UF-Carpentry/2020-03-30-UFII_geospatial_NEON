@@ -2,23 +2,23 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
-event_title:  "Data Carpentry - Geospatial Workshop"     # optional: brief title of the event (e.g. "Data Carpentry - Geospatial Workshop")
-venue: "New Mexico Institute of Mining and Technology"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Cramer Hall Rm 239
-New Mexico Tech
-801 Leroy Place, Socorro, New Mexico 87801"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+event_title:  "Data Carpentry - Geospatial and Intro to NEON"     # optional: brief title of the event (e.g. "Data Carpentry - Geospatial Workshop")
+venue: "University of Florida Informatics Institute"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "432 Newell Dr, Gainesville, FL 32603"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latlng: "34.0660° N, 106.9056° W"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Sept 14-15, 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2019-09-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2019-09-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Eve Bohnett","Rita Kuo"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["",""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["amy.knowles@nmt.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:   https://pad.carpentries.org/2019-09-14-nmt          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-
+latitude: "29.648292"     # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "-82.344092"    # decimal longitude of the workshop venue (use https://www.latlong.net)
+humandate: "February 10-11, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 AM - 4:30 PM"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2020-02-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2020-02-11       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Hao Ye, Vratika Chaudhary, Eve Bohnett, Dimitri Bourilkov"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Minghao Gong, Shar Siddiqui, Amobichukwu Amanambu"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["evebohnett@ufl.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes: https://pad.carpentries.org/2020-02-10_SocialSciences_R            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+---
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
