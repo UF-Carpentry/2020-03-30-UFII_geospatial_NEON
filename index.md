@@ -7,17 +7,17 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "29.648292"     # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-82.344092"    # decimal longitude of the workshop venue (use https://www.latlong.net)
-event_title:  "Geospatial Carpentry meets NEON"     # optional: brief title of the event (e.g. "Data Carpentry - Geospatial Workshop")
-humandate: "March 30-31, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+event_title:  "Postponed:Geospatial Carpentry meets NEON"     # optional: brief title of the event (e.g. "Data Carpentry - Geospatial Workshop")
+humandate:    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 AM - 4:30 PM"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2020-03-30      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-03-31       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate:     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate:        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Vratika Chaudhary, Eve Bohnett"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["evebohnett@ufl.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2020-3-30_geospatial_NEON           # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 locations:
-  - venue: "University of Florida Informatics Institute"        
+  - venue: "Postponed:University of Florida Informatics Institute"        
     address: "Informatics Institute Conference Room, CISE building"     
     latlng: "29.648292, -82.344092"     # decimal latitude of workshop venue (use https://www.latlong.net/)---
 ---
