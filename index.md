@@ -5,8 +5,8 @@ venue: "University of Florida Informatics Institute"        # brief name of host
 address: "432 Newell Dr, Gainesville, FL 32603"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latitude: "29.648292"     # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "-82.344092"    # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude: ""     # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: ""    # decimal longitude of the workshop venue (use https://www.latlong.net)
 event_title:  "Geospatial Carpentry meets NEON"     # optional: brief title of the event (e.g. "Data Carpentry - Geospatial Workshop")
 humandate:   May 18th-19th 2020 # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 AM - 4:30 PM"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
@@ -17,9 +17,9 @@ helper: ["Brian Stucky, Minghao Gong, Audrey Smith,Dave Klinges,Di Yang, Eve Boh
 email: ["evebohnett@ufl.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2020-5-18_geospatial_NEON           # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 locations:
-  - venue: "University of Florida Informatics Institute"        
-    address: "Informatics Institute Conference Room, CISE building"     
-    latlng: "29.648292, -82.344092"     # decimal latitude of workshop venue (use https://www.latlong.net/)---
+  - venue:"University of Florida Informatics Institute"        
+    address: "Zoom Online Workshop"     
+    latlng: ""     # decimal latitude of workshop venue (use https://www.latlong.net/)---
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
