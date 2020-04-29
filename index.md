@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
+carpentry:"dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
 venue: "Zoom Online Workshop"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "432 Newell Dr, Gainesville, FL 32603"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
@@ -17,7 +17,7 @@ helper: ["Brian Stucky, Minghao Gong, Audrey Smith,Dave Klinges,Di Yang, Eve Boh
 email: ["evebohnett@ufl.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2020-5-18_geospatial_NEON           # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 locations:
-  - venue:"University of Florida Informatics Institute"        
+  - venue: "University of Florida Informatics Institute"        
     address: "Zoom Online Workshop"     
     latlng: ""     # decimal latitude of workshop venue (use https://www.latlong.net/)---
 ---
