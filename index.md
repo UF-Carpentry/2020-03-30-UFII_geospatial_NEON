@@ -8,7 +8,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: ""     # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: ""    # decimal longitude of the workshop venue (use https://www.latlong.net)
 event_title:  "Geospatial Carpentry meets NEON"     # optional: brief title of the event (e.g. "Data Carpentry - Geospatial Workshop")
-humandate:   May 18th-19th 2020 # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate:   "May 18th-19th 2020" # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 AM - 4:30 PM"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate:     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate:        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
