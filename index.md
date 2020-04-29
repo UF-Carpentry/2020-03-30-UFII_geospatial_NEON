@@ -7,17 +7,17 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "29.648292"     # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-82.344092"    # decimal longitude of the workshop venue (use https://www.latlong.net)
-event_title:  "Postponed:Geospatial Carpentry meets NEON"     # optional: brief title of the event (e.g. "Data Carpentry - Geospatial Workshop")
-humandate:    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+event_title:  "Geospatial Carpentry meets NEON"     # optional: brief title of the event (e.g. "Data Carpentry - Geospatial Workshop")
+humandate:   May 18th-19th 2020 # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 AM - 4:30 PM"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate:     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate:        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Vratika Chaudhary, Eve Bohnett"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Vratika Chaudhary, Felipe Sanchez, Ben Kok Toh, Geraldine Klarenberg, Kathe Todd-Brown, Sharmin Siddiqui"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Brian Stucky, Minghao Gong, Audrey Smith,Dave Klinges,Di Yang, Eve Bohnett"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["evebohnett@ufl.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://pad.carpentries.org/2020-3-30_geospatial_NEON           # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://pad.carpentries.org/2020-5-18_geospatial_NEON           # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 locations:
-  - venue: "Postponed:University of Florida Informatics Institute"        
+  - venue: "University of Florida Informatics Institute"        
     address: "Informatics Institute Conference Room, CISE building"     
     latlng: "29.648292, -82.344092"     # decimal latitude of workshop venue (use https://www.latlong.net/)---
 ---
@@ -139,17 +139,16 @@ special instructions.
 {% endcomment %}
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
-  The workshop organizers have checked that:
+  accessible to everybody via Zoom due to these unprecedented circumstances. 
+ 
 </p>
 <ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
+  <li>We will be asking participants to post questions in the chat bar of the zoom window</li>
+  <li>Breakout rooms will be used for the exercises</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
+  Materials will be provided in advance of the workshop.
+  If we can help making learning easier for
   you (e.g. sign-language interpreters, lactation facilities) please
   get in touch (using contact details below) and we will
   attempt to provide them.
@@ -191,8 +190,8 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "dc" %}
-<p><a href="{{ site.dc_pre_survey }}2020-03-30-UFII_geospatial_NEON">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}2020-03-30-UFII_geospatial_NEON">Post-workshop Survey</a></p>
+<p><a href="{{ site.dc_pre_survey }}2020-05-18-UFII_geospatial_NEON">Pre-workshop Survey</a></p>
+<p><a href="{{ site.dc_post_survey }}2020-05-18-UFII_geospatial_NEON">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "lc" %}
 <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -223,7 +222,7 @@ Collaborative Notes
 
 If you want to use an Etherpad, go to
 
-http://pad.carpentries.org/2020-03-30-UFII_geospatial_NEON
+http://pad.carpentries.org/2020-05-18-UFII_geospatial_NEON
 
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
